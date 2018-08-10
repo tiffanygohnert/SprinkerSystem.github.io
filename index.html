@@ -45,19 +45,56 @@
   </div>
 </div>
 
-<form action="/action_page.php" method="post" target="_blank">
+  <!--<form action="/action_page.php" method="post" target="_blank">-->
+ Quick Schedule
+<form action="/action_page.php" method="post">
+<select name="Schedule">
+  <option value="zone1">Zone 1</option>
+  <option value="zone2">Zone 2</option>
+  <option value="zone3">Zone 3</option>
+  <option value="zone4">Zone 4</option>
+   <option value="On">On</option>
+  <option value="Off">Off</option>
+</select>
 
-  Zone: <input type="text" name="Zone"><br>
-
-<!-- Need check zone 1 -4 or ON/OFF -->
-
-  TimePeriod: <input type="text" name="Time"><br>
-
-  <!-- Need check Numbers only. Allow numbers between 1 and 10 only. -->
-
-  <input type="submit" value="Submit">
-
+<select name="Time">
+  <option value="time1">1</option>
+  <option value="time2">2</option>
+  <option value="time3">4</option>
+  <option value="time">6</option>
+</select>
+<input type="submit" value="Submit">
 </form>
+
+Scheduled Time 
+<form action="/action_page.php" method="post">
+ 
+ <select name="ScheduleZone">
+  <option value="zone1">Zone 1</option>
+  <option value="zone2">Zone 2</option>
+  <option value="zone3">Zone 3</option>
+  <option value="zone4">Zone 4</option>
+</select>
+ 
+  <select name="ScheduleTimeAMPM">
+  <option value="am">AM</option>
+  <option value="pm">PM</option>
+   <option value="NA">---</option>
+  </select>
+  
+  
+  <select name="ScheduleTime">
+  
+  <option value="sch7">7:00</option>
+  <option value="ch8">8:00am</option>
+  <option value="ch9">9:00am</option>
+  <option value="ch710">10:00am</option>
+  <option value="schtimeoff">Off</option>
+</select>
+<input type="submit" value="Submit">
+</form>
+
+
 
 
 

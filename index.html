@@ -1,23 +1,103 @@
-<!doctype html>
-<html>
-<head>
-    <title>Example Domain</title>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      
+      
 
-    <meta charset="utf-8" />
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <style type="text/css">
 
-(...)
+   
+      
+      
+    <title>Sprinkler System</title>
 
-</head>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    
+<link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald|Shadows+Into+Light" rel="stylesheet">
+<link rel="stylesheet" href="css/bootstrap4-daydream.min.css">
 
-<body>
-<div>
-    <h1>Example Domain</h1>
-    <p>This domain is established to be used for illustrative examples in documents. You may use this
-    domain in examples without prior coordination or asking for permission.</p>
-    <p><a href="http://www.iana.org/domains/example">More information...</a></p>
+  </head>
+  <body>
+
+  
+<div class="jumbotron bg-primary text-center text-white mb-0 radius-0">
+  <div class="container">
+
+    <h1 class="display-3 text-white text-handwriting text-uppercase">Gohnert</h1>
+    <h1 class="display-1 text-success text-uppercase title-margin-fix">Sprinkler System</h1>
+
+    <div>
+      <a href="#!"
+         class="btn btn-outline-light btn-lg m-2 btn-hover-text-primary">
+        <span>Zone 1</span>
+      </a>
+
+      <a href="#!"
+         class="btn btn-outline-light btn-hover-text-primary btn-lg m-2">
+        <span>Zone 2</span>
+      </a>
+	  
+	  <a href="#!"
+         class="btn btn-outline-light btn-hover-text-primary btn-lg m-2">
+        <span>Zone 3</span>
+      </a>
+	  
+	  <a href="#!"
+         class="btn btn-outline-light btn-hover-text-primary btn-lg m-2">
+        <span>Zone 4</span>
+      </a>
+    </div>
+  </div>
 </div>
-</body>
-</html>
+
+  <!--<form action="/action_page.php" method="post" target="_blank">-->
+ Quick Schedule
+<form action="http://10.0.0.92" method="post">
+<select name="Schedule">
+  <option value="zone1">Zone 1</option>
+  <option value="zone2">Zone 2</option>
+  <option value="zone3">Zone 3</option>
+  <option value="zone4">Zone 4</option>
+   <option value="On">On</option>
+  <option value="Off">Off</option>
+</select>
+
+<select name="Time">
+  <option value="time1">1</option>
+  <option value="time2">2</option>
+  <option value="time3">4</option>
+  <option value="time">6</option>
+</select>
+<input type="submit" value="Submit">
+</form>
+
+Scheduled Time 
+<form action="http://10.0.0.92" method="post">
+ 
+ <select name="ScheduleZone">
+  <option value="zone1">Zone 1</option>
+  <option value="zone2">Zone 2</option>
+  <option value="zone3">Zone 3</option>
+  <option value="zone4">Zone 4</option>
+</select>
+ 
+  <select name="ScheduleTimeAMPM">
+  <option value="am">AM</option>
+  <option value="pm">PM</option>
+   <option value="NA">---</option>
+  </select>
+  
+  
+  <select name="ScheduleTime">
+  
+  <option value="sch7">7:00</option>
+  <option value="ch8">8:00am</option>
+  <option value="ch9">9:00am</option>
+  <option value="ch710">10:00am</option>
+  <option value="schtimeoff">Off</option>
+</select>
+<input type="submit" value="Submit">
+</form>
